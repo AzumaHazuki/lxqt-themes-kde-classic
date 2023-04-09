@@ -1,0 +1,185 @@
+/* Panel */
+#panel {
+	color:				#000000;
+	background:			#efefef;
+
+	border:				1px solid #8d8d8d;
+}
+
+/* Buttons */
+QToolButton::menu-indicator {
+	image:				none;
+}
+
+#closeButton {
+        color:                          #000000;
+        background:                     transparent;
+
+        border:                         3px solid transparent;
+
+        margin:                         3px;
+        padding:                        3px;
+
+	qproperty-icon:			url(assets/icons/cancel.png);
+	qproperty-iconSize:		16px;
+}
+
+#actionButton {
+        color:                          #000000;
+        background:                     transparent;
+
+        border:                         3px solid transparent;
+
+        margin:                         3px;
+        padding:                        3px;
+
+	qproperty-icon:			url(assets/icons/menu.png);
+	qproperty-iconSize:		16px;
+}
+
+#closeButton:hover, #actionButton:hover {
+       	color:                          #000000;
+       	background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1 stop:0 #e5e7ec, stop:1 #d2d3d9);
+
+       	border:                         3px solid transparent;
+       	border-image:                   url(assets/buttons/button.png) 3px;
+
+}
+
+#closeButton:pressed, #actionButton:pressed {
+       	color:                          #000000;
+       	background:                	qlineargradient(x1:0, y1:0, x2:0, y2:1 stop:0 #a6a8ab, stop:1 #adafb2);
+
+       	border:                         3px solid transparent;
+       	border-image:                   url(assets/buttons/active.png) 3px;
+}
+
+/* Command Box */
+#commandEd {
+       	color:                          #000000;
+       	background:                     #ffffff;
+
+       	selection-color:                #ffffff;
+       	selection-background-color:     #678db2;
+
+       	border:                         3px solid transparent;
+       	border-image:                   url(assets/menus/entry.png) 3;
+
+       	margin:                         2px;
+       	padding:                        2px;
+
+       	min-height:                     20px;
+}
+
+/* Search results list */
+#commandList {
+	background:			#ffffff;
+	color:				#000000;
+
+	selection-color:		#ffffff;
+	selection-background-color:	#678db2;
+	alternate-background-color:	#ffffff;
+
+	border:				1px solid #8d8d8d;
+}
+
+#commandList::item, #commandList::item:alternate {
+	color:				#000000;
+	background:			#ffffff;
+}
+
+#commandList::item:hover, #commandList::item:selected {
+	color:                          #ffffff;
+        background:                     #678db2;
+}
+
+/* Menus */
+QMenu {
+       	color:                          #000000;
+       	background:                     #fafafa;
+
+       	border:                         1px solid #8d8d8d;
+
+       	font:                           normal;
+}
+
+QMenu::icon {
+       	padding:                        0px 4px 0px 3px;
+}
+
+QMenu::item {
+       	color:                          #000000;
+       	background:                     transparent;
+
+       	border-top:                     1px solid transparent;
+       	border-bottom:                  1px solid transparent;
+
+       	padding-left:                   5px;
+       	padding-right:                  5px;
+       	margin:                         0px;
+
+       	min-width:                      100px;
+       	min-height:                     22px;
+}
+
+QMenu::item:selected {
+       	color:                          #ffffff;
+       	background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #7097bd, stop:1 #6386a7);
+
+       	border-top:                     1px solid #79a3cc;
+       	border-bottom:                  1px solid #5e7f9e;
+}
+
+QMenu::item:disabled {
+       	color:                          #8d8d8d;
+       	background:                     transparent;
+}
+
+QScrollBar {
+        color:                          #000000;
+       	background:                     transparent;
+
+       	background-image:               url(assets/scrollbars/groove.png);
+       	background-repeat:              repeat-y;
+       	background-position:            left;
+
+        width:                          16px;
+}
+
+QScrollBar::handle {
+        color:                          transparent;
+        background:                     qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #e8e9ef, stop:1 #cecfd5);
+
+       	background-image:               url(assets/scrollbars/dots.png);
+       	background-repeat:              no-repeat;
+       	background-position:            center;
+       	background-attachment:          fixed;
+
+       	border:                         2px solid transparent;
+       	border-image:                   url(assets/scrollbars/handle.png) 2;
+
+       	margin:                         16px 0px;
+
+        width:                          16px;
+}
+
+QScrollBar::sub-line {
+        color:                          transparent;
+        background:                     transparent;
+
+       	background-image:               url(assets/scrollbars/scroll-up.png);
+       	background-repeat:              no-repeat;
+
+        border:                         none;
+}
+
+
+QScrollBar::add-line {
+        color:                          transparent;
+        background:                     transparent;
+
+       	background-image:               url(assets/scrollbars/scroll-down.png);
+       	background-repeat:              no-repeat;
+
+        border:                         none;
+}
