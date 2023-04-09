@@ -3,6 +3,8 @@ This repository houses the LXQt port of KDE 3.5.10/Trinity DE's default theme, a
 
 With this suite of themes installed, it should be possible to have a modern desktop with a very close experience to the good old days of KDE 3.5.x again. In keeping with the old style, it is recommend to use a skeumorphic icon theme like Oxygen or Elementary-KDE-Blue.
 
+If using the included Openbox theme, please use a font size of 10 or above to prevent the window buttons from clipping. The panel is 36px high with 24px icons. Try a KDE-style start menu icon if you have one!
+
 ![Openbox-KDE-Classic](https://user-images.githubusercontent.com/67122280/230796397-543b398c-4612-4eef-af2c-803917960624.png)
 ![LXQt-KDE-Classic](https://user-images.githubusercontent.com/67122280/230796402-196fc330-1a2e-423e-a18b-5164635eca08.png)
 ![BlueLineart](https://user-images.githubusercontent.com/67122280/230796417-3fc1162b-5ced-4f6c-a922-584d57c7f0a7.svg)
