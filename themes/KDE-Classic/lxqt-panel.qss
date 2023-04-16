@@ -287,6 +287,8 @@ LXQtPanel QMenu QToolButton {
         margin-right:                   0px;
 
         border-left:                    4px solid transparent;
+
+	min-width:                      200px;
 }
 
 #TopLevelMainMenu::separator {
